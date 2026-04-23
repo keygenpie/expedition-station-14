@@ -57,7 +57,7 @@
   name: lenakev rifle # ES14 EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
-  description: A woodstock combat rifle of a design originating from an anonymous Extramuran arms manufacturer, inspired by old Terran firearms. Favored by the Independent Anticorpori due to its famed reliability and easy-to-manufacture design.\nFeeds from .30 rifle magazines. # ES14 EDIT
+  description: A woodstock combat rifle of a design originating from an anonymous Extramuran arms manufacturer, inspired by old Terran firearms. Favored by the Independent Anticorpori due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
