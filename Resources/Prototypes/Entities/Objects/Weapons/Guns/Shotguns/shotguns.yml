@@ -45,11 +45,11 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: emperor shotgun # ES14 EDIT
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
+  description: An automatic magazine-fed shotgun for close-quarters combat, designed by Shellguard Munitions. Uses .50 shotgun shells. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -106,7 +106,7 @@
   name: double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderContraband]
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: An immortal classic, originating from Terra Prima and still finding use today. Uses .50 shotgun shells. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -128,17 +128,17 @@
   name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: An immortal classic, originating from Terra Prima and still finding use today. Uses .50 shotgun shells. # ES14 EDIT
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: claymore shotgun # ES14 EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  description: An expensive semi-automatic shotgun, and the pride of all Nanotrasen security forces provided enough funding to use it. Uses .50 shotgun shells. # ES14 EDIT
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -158,10 +158,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: spatha shotgun # ES14 EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
+  description: An old Terran design, re-designed by Extramuran manufacturers and eventually adopted by Nanotrasen. Uses .50 shotgun shells. # ES14 EDIT
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
@@ -182,7 +182,7 @@
   name: sawn-off shotgun
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: Groovy! Uses .50 shotgun shells.
+  description: A hacksaw and a shotgun; a tale as old as time. Uses .50 shotgun shells. # ES14 EDIT
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
@@ -208,7 +208,7 @@
   name: sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
+  description: A hacksaw and a shotgun; a tale as old as time. Uses .50 shotgun shells. # ES14 EDIT
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -246,11 +246,11 @@
     price: 0
 
 - type: entity
-  name: blunderbuss
+  name: ancient blunderbuss # ES14 EDIT
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range.
+  description: An old Terran classic, typically seen in the hands of eccentric Extramuran auctioners. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
@@ -266,7 +266,7 @@
   name: improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunImprovised
-  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
+  description: A shoddily-constructed shotgun that uses .50 shotgun shells. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHushpup
-  name: Hushpup
-  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Great for those with a strict moral code. Uses .50 shotgun shells.
+  name: misericorde shotgun # ES14 EDIT
+  description: An obscure modification of the Claymore shotgun, fitted with an experimental muffler and an ironic name. Uses .50 shotgun shells. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/hushpup.rsi

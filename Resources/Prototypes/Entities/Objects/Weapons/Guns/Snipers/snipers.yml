@@ -39,10 +39,10 @@
     price: 500
 
 - type: entity
-  name: Kardashev-Mosin
+  name: ancient sniper rifle # ES14 EDIT
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
+  description: A collector's favorite, old Terran bolt-action rifles still find places in the hands of the eccentric operatives of today. Typically re-fit with new parts for usability. Loads 10 rounds of .30 rifle. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -90,10 +90,10 @@
     price: 500
 
 - type: entity
-  name: Hristov
+  name: death's head rifle # ES14 EDIT
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+  description: The "Death's Head." An infamous Shellguard anti-materiel rifle, made for total armor penetration at long distances. Uses .60 anti-materiel ammo. # ES14 EDIT
   components:
   - type: Item
     size: Huge
@@ -128,7 +128,7 @@
     price: 3500
 
 - type: entity
-  name: musket
+  name: ancient musket # ES14 EDIT
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband ]
   id: Musket
   description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
@@ -167,10 +167,10 @@
   - type: GunRequiresWield
 
 - type: entity
-  name: flintlock pistol
+  name: ancient flintlock # ES14 EDIT
   parent: [BaseWeaponSniper, BaseMajorContraband]
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses .45 magnum ammo.
+  description: An old Terran pirate's companion. Nowadays, typically found in the hands of collectors. Uses .45 magnum ammo. # ES14 EDIT
   components:
   - type: Gun
     minAngle: 0
