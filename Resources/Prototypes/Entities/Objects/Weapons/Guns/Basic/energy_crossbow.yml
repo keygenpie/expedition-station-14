@@ -37,8 +37,8 @@
 - type: entity
   parent: [WeaponEnergyCrossbowBase, BaseSyndicateContraband]
   id: WeaponEnergyCrossbow
-  name: mini energy crossbow
-  description: Launches renewable toxic arrows capable of flooring targets instantly.
+  name: swallowtail energy crossbow # ES14 EDIT
+  description: A covert Shellguard energy weapon. Launches renewable toxic arrows capable of flooring targets instantly. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi

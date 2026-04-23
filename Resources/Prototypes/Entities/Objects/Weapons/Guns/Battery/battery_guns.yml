@@ -262,10 +262,10 @@
   - type: Appearance
 
 - type: entity
-  name: laser carbine
+  name: cricket laser carbine # ES14 EDIT
   parent: [BaseLaserRifle, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCarbine
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: A product of Nanotrasen's Energy Weapons division, favored by security details for its ease of use. Can often be seen in Anticorpori propaganda as a symbol of oppression. # ES14 EDIT
 
 - type: entity
   name: practice laser carbine
@@ -281,10 +281,10 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: pulse pistol
+  name: cicada pulse pistol # ES14 EDIT
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponPulsePistol
-  description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
+  description: A state of the art energy pistol used as a service weapon by Nanotrasen's emergency response teams. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -321,10 +321,10 @@
     - LaserWeapon
 
 - type: entity
-  name: pulse carbine
+  name: wasp pulse carbine # ES14 EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCarbine
-  description: A high tech energy carbine favoured by the NT-ERT operatives.
+  description: An expensive high-tech carbine found in the hands of Nanotrasen's emergency response teams. # ES14 EDIT
   components:
   - type: Item
     size: Large
@@ -359,10 +359,10 @@
     startingCharge: 5000
 
 - type: entity
-  name: pulse rifle
+  name: hornet pulse rifle # ES14 EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseRifle
-  description: A weapon that is almost as infamous as its users.
+  description: An infamous energy weapon designed by Nanotrasen's Energy Weapons division, and typically the centerpiece of ERT squads. # ES14 EDIT
   components:
   - type: Item
     size: Huge
@@ -395,7 +395,7 @@
     startingCharge: 40000
 
 - type: entity
-  name: laser cannon
+  name: custom laser cannon # ES14 EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCannon
   description: A heavy duty, high powered laser weapon.
@@ -536,7 +536,7 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: disabler
+  name: disabler pistol # ES14 EDIT
   parent: [WeaponDisablerPractice, BaseSecurityCommandContraband]
   id: WeaponDisabler
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
@@ -565,10 +565,10 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: disabler SMG
+  name: enervator smg # ES14 EDIT
   parent: [BaseWeaponBattery, BaseSecurityContraband]
   id: WeaponDisablerSMG
-  description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
+  description: Advanced version of the standard disabler pistol that fires in full-auto, rapidly exhausting organic targets. # ES14 EDIT
   components:
   - type: Item
     size: Large
@@ -665,7 +665,7 @@
   name: antique laser pistol
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
-  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with a mahogany grip and chrome filigree. The object menaces with spikes of energy. On the item is an image of a captain and a clown. The clown is dead. The captain is striking a heroic pose.
+  description: An antique laser pistol, custom-crafted and given to new Nanotrasen captains as a personal gift. It is decorated with a mahogany grip and chrome filigree. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -839,10 +839,10 @@
     - LaserWeapon
 
 - type: entity
-  name: energy shotgun
+  name: mantis energy shotgun # ES14 EDIT
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponEnergyShotgun
-  description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
+  description: A modular prototype energy weapon only recently distributed for testing by the Energy Weapons division, allowing for both lethal and non-lethal fire. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
@@ -883,7 +883,7 @@
     startingCharge: 480
 
 - type: entity
-  name: energy magnum
+  name: whitefly energy magnum # ES14 EDIT
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponEnergyMagnum
   description: A high powered self-charging energy pistol designed for elite security personnel. It has has three firing modes allowing for either high damage, window piercing, or non-lethal disabling.
@@ -933,7 +933,7 @@
   name: temperature gun
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponTemperatureGun
-  description: An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of war crime.
+  description: An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of crime against humanity under old Terran conventions. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi

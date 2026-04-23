@@ -29,10 +29,10 @@
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: china lake
+  name: alisa grenade launcher # ES14 EDIT
   parent: [BaseWeaponLauncher, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: A favorite of the less-subtle operatives of the Independent Anticorpori, able to launch a variety of payloads. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherHydra
-  name: hydra
-  description: PLOOP... FSSSSSS...
+  name: polina grenade launcher # ES14 EDIT
+  description: A janitor's best friend. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -106,10 +106,10 @@
     proto: GrenadeFrag
 
 - type: entity
-  name: RPG-7
+  name: ancient rocket launcher # ES14 EDIT
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: Somehow, this old Terran rocket launcher persists today, typically as an antique or museum piece. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -139,10 +139,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: modified rocket launcher # ES14 EDIT
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: A modified variant of an ancient Terran rocket launcher. # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -174,10 +174,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: ancient pirate cannon # ES14 EDIT
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: How did old Terran pirates even wield these? # ES14 EDIT
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi

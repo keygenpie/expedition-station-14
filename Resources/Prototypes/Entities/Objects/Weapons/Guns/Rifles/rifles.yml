@@ -101,7 +101,7 @@
   - type: Appearance
 
 - type: entity
-  name: mantis carbine # ES14 EDIT
+  name: stag carbine # ES14 EDIT
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
   description: "An old bullpup carbine design from Extramuran arms manufacturer Khepri Industria. Comes with an attached underbarrel grenade launcher.\nFeeds from .20 rifle magazines." # ES14 EDIT
