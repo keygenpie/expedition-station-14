@@ -147,7 +147,7 @@
   name: falcata rifle # ES14 EDIT
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
-  description: "A popular gas-operated service rifle, typically found in the hands of Nanotrasen officers. Named after the favored blade of its designer and previous leader of the NT Small Arms division, Oliver Abbott.\nFeeds from .20 rifle magazines." # ES14 EDIT
+  description: "A highly-popular gas-operated service rifle, typically found in the hands of Nanotrasen officers. \nFeeds from .20 rifle magazines." # ES14 EDIT
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi

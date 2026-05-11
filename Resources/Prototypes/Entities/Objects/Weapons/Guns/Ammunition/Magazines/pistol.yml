@@ -100,8 +100,8 @@
 - type: entity
   parent: [ BaseItem, BaseSecurityContraband ]
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  name: kopis magazine (.35 auto top-mounted) # ES14 EDIT
+  description: Unconventional 30-round top feeding magazine for the Kopis SMG. Intended to hold general-purpose kinetic ammunition. # ES14 EDIT
   components:
   - type: Item
     storedRotation: 90
@@ -134,9 +134,9 @@
 - type: entity
   parent: MagazinePistolSubMachineGunTopMounted
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
+  name: kopis magazine (.35 auto top-mounted any) # ES14 EDIT
   suffix: empty
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  description: Unconventional 30-round top feeding magazine for the Kopis SMG. # ES14 EDIT
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -396,7 +396,7 @@
   id: MagazinePistolHighCapacityEmpty
   name: machine pistol magazine (.35 auto any)
   suffix: empty
-  description: Custom 15-round double-stack magazine for the Viper pistol.
+  description: Custom 15-round double-stack magazine for the Corvo pistol. # ES14 EDIT
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -417,7 +417,7 @@
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacity
   name: machine pistol magazine (.35 auto)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold general-purpose kinetic ammunition.
+  description: Custom 15-round double-stack magazine for the Corvo pistol. Intended to hold general-purpose kinetic ammunition. # ES14 EDIT
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -438,7 +438,7 @@
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacityPractice
   name: machine pistol magazine (.35 auto practice)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold harmless practice ammunition.
+  description: Custom 15-round double-stack magazine for the Corvo pistol. Intended to hold harmless practice ammunition. # ES14 EDIT
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice

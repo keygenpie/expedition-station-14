@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseMagazineLightRifle
   id: MagazineLightRifleBox
-  name: "L6 SAW magazine box (.30 rifle)"
-  description: Box containing a 100-round belt of linked .30 rifle rounds, used by light machine guns such as the L6. Intended to hold general-purpose kinetic ammunition.
+  name: "duskwing magazine box (.30 rifle)" # ES14 EDIT
+  description: Box containing a 100-round belt of linked .30 rifle rounds, used by light machine guns such as the Duskwing. Intended to hold general-purpose kinetic ammunition. # ES14 EDIT
   components:
   - type: Tag
     tags:
